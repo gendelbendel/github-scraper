@@ -1,0 +1,6 @@
+{
+  "concurrentCalls": 10,
+  "debug": false,
+  "org": "angular",
+  "githubApiTimeoutMilliseconds": 5000
+}

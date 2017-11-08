@@ -1,0 +1,20 @@
+{
+  "name": "github-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/all.js",
+  "scripts": {
+    "start": "node bin/all.js",
+    "start:update": "node bin/recent-update.js",
+    "start:issues": "node bin/total-org-issues.js",
+    "start:watchers": "node bin/watchers.js"
+  },
+  "author": "David Ward",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "config": "^1.28.0",
+    "github": "^12.0.1",
+    "lodash": "^4.17.4"
+  }
+}
